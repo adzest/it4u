@@ -17,7 +17,7 @@ public class HbConnectionTest {
   private SessionFactory sessionFactory;
 
   @BeforeClass
-  protected void setUp() throws Exception {
+  protected void setUp() {
     // A SessionFactory is set up once for an application!
     final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
           .configure() // configures settings from hibernate.cfg.xml

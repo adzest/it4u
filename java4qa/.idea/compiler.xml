@@ -6,6 +6,8 @@
       <module name="addressbook_test" target="1.8" />
       <module name="bugify-tests_main" target="1.8" />
       <module name="bugify-tests_test" target="1.8" />
+      <module name="github-sample_main" target="1.8" />
+      <module name="github-sample_test" target="1.8" />
       <module name="java4qa_main" target="1.8" />
       <module name="java4qa_test" target="1.8" />
       <module name="mantis-tests_main" target="1.8" />

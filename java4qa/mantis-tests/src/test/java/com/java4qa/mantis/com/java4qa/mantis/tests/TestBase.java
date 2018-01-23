@@ -2,12 +2,16 @@ package com.java4qa.mantis.com.java4qa.mantis.tests;
 
 
 import com.java4qa.mantis.com.java4qa.mantis.appmanager.ApplicationManager;
+import com.java4qa.mantis.com.java4qa.mantis.model.Issue;
 import org.openqa.selenium.remote.BrowserType;
+import org.testng.SkipException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import java.io.File;
-import java.io.IOException;
+import javax.xml.rpc.ServiceException;
+import java.net.MalformedURLException;
+import java.rmi.RemoteException;
+import java.util.Set;
 
 public class TestBase {
 
@@ -21,9 +25,26 @@ public class TestBase {
   }
 
   @AfterSuite(alwaysRun = true)
-  public void tearDown() throws IOException {
+  public void tearDown() {
 //     app.ssh().restore("config_inc.php.bak", "config_inc.php");
     app.stop();
   }
 
+  private boolean isIssueOpen(int issueId) throws RemoteException, ServiceException, MalformedURLException {
+    boolean answer = false;
+    Set<Issue> issueSet = app.soap().getIssues();
+    for (Issue issue : issueSet){
+      System.out.println(issue.toString());
+      if (issue.getStatus()!=null) {
+        answer = true;
+      }
+    }
+    return answer;
+  }
+
+  public void skipIfNotFixed(int issueId) throws SkipException, RemoteException, ServiceException, MalformedURLException {
+    if (isIssueOpen(issueId)) {
+      throw new SkipException("Ignored because of issue " + issueId);
+    }
+  }
 }

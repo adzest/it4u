@@ -27,7 +27,7 @@ public class RestAssuredTests extends TestBase{
   }
 
   @Test
-  public void testCreateIssue() throws IOException {
+  public void testCreateIssue() {
     Set<Issue> oldIssues = getIssues();
     Issue newIssue = new Issue().withSubject("Test issue").withDescription("New test description");
     int issueId = createIssue(newIssue);
@@ -37,7 +37,7 @@ public class RestAssuredTests extends TestBase{
     assertEquals(newIssues, oldIssues);
   }
 
-  private Set<Issue> getIssues() throws IOException {
+  private Set<Issue> getIssues() {
     String json = RestAssured.given()
         .parameter("limit",app.getProperty("rest.limit"))
         .get(String.format("%s%s", app.getProperty("rest.api.url"), app.getProperty("rest.prefix.issues")))
@@ -49,7 +49,7 @@ public class RestAssuredTests extends TestBase{
     return new Gson().fromJson(issues, new TypeToken<Set<Issue>>() {}.getType());
   }
 
-  private int createIssue(Issue newIssue) throws IOException {
+  private int createIssue(Issue newIssue) {
     String json = RestAssured.given()
         .parameter("subject", newIssue.getSubject())
         .parameter("description", newIssue.getDescription())

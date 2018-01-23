@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.testng:testng:6.13.1'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile 'com.jcabi:jcabi-github:0.33.1'
+}

@@ -92,7 +92,7 @@ public class ApplicationManager {
         wd = new InternetExplorerDriver();
       }
       wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-      wd.get(properties.getProperty("web.baseUrl"));
+      wd.get(properties.getProperty("mantis.url"));
     }
     return wd;
   }

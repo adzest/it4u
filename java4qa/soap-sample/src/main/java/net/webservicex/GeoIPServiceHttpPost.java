@@ -23,9 +23,9 @@ public interface GeoIPServiceHttpPost {
      */
     @WebMethod(operationName = "GetGeoIP")
     @WebResult(name = "GeoIP", targetNamespace = "http://www.webservicex.net/", partName = "Body")
-    public GeoIP getGeoIP(
+    GeoIP getGeoIP(
         @WebParam(partName = "IPAddress", name = "IPAddress", targetNamespace = "")
-        java.lang.String ipAddress
+            java.lang.String ipAddress
     );
 
     /**
@@ -33,5 +33,5 @@ public interface GeoIPServiceHttpPost {
      */
     @WebMethod(operationName = "GetGeoIPContext")
     @WebResult(name = "GeoIP", targetNamespace = "http://www.webservicex.net/", partName = "Body")
-    public GeoIP getGeoIPContext();
+    GeoIP getGeoIPContext();
 }
