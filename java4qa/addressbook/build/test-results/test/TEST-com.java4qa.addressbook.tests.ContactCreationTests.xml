@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.java4qa.addressbook.tests.ContactCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-26T18:36:54" hostname="AIsakov-MBP.local" time="1.756">
+  <properties/>
+  <testcase name="testContactCreation" classname="com.java4qa.addressbook.tests.ContactCreationTests" time="1.756"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

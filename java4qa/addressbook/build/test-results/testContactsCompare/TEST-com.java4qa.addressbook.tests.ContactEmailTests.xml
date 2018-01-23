@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.java4qa.addressbook.tests.ContactEmailTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-26T18:47:05" hostname="AIsakov-MBP.local" time="0.39">
+  <properties/>
+  <testcase name="testContactEmail" classname="com.java4qa.addressbook.tests.ContactEmailTests" time="0.39"/>
+  <system-out><![CDATA[test_name.test_surname@
+test_name.test_surname@
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

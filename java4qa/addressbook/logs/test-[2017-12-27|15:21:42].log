@@ -1,0 +1,4 @@
+2780 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters [GroupData{id='2147483647', name='test1'}]
+2790 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+2792 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+2793 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion

@@ -1,0 +1,2 @@
+91014 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreation with parameters [ContactData{id=2147483647, firstName='testFirst_1', lastName='tesLast_1', companyAddress='null', homePhone='testHome_1', mobilePhone='testMob_1', workPhone='testWork_1', email='test_1@address.com', email2='test_1@address.com', email3='test_1@address.com', group='null', allPhones='null', allEmails='null', contactDetails='null', photo=src/test/resources/test.jpeg}]
+117777 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreation

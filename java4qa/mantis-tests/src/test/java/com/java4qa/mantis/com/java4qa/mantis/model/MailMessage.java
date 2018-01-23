@@ -1,0 +1,13 @@
+package com.java4qa.mantis.com.java4qa.mantis.model;
+
+public class MailMessage {
+
+  public String to;
+
+  public  String text;
+
+  public MailMessage(String to, String text){
+    this.to = to;
+    this.text = text;
+  }
+}

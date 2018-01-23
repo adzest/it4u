@@ -1,0 +1,6 @@
+3018 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id='2147483647', name='test1'}]
+8827 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation
+8828 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id='2147483647', name='test2'}]
+12220 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation
+12221 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id='2147483647', name='test3'}]
+15672 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.java4qa.addressbook.tests.GroupCreationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-12-26T19:39:07" hostname="AIsakov-MBP.local" time="18.371">
+  <properties/>
+  <testcase name="testBadGroupCreation[0](GroupData{id='2147483647', name='test'1'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="4.524"/>
+  <testcase name="testBadGroupCreation[1](GroupData{id='2147483647', name='test'2'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.721"/>
+  <testcase name="testBadGroupCreation[2](GroupData{id='2147483647', name='test'3'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.748"/>
+  <testcase name="testGroupCreation[0](GroupData{id='2147483647', name='test1'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.765"/>
+  <testcase name="testGroupCreation[1](GroupData{id='2147483647', name='test2'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.746"/>
+  <testcase name="testGroupCreation[2](GroupData{id='2147483647', name='test3'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.852"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+2900 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id='2147483647', name='null'}]
+7421 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation

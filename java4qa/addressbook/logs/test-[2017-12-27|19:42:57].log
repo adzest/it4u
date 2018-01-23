@@ -1,0 +1,56 @@
+2635 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactEmail with parameters []
+3823 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactEmail
+3827 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactPhones with parameters []
+4257 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactPhones
+4258 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCompare with parameters []
+4986 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCompare
+5236 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull with parameters [ContactData{id=0, firstName='testFirst_1', lastName='tesLast_1', companyAddress='null', homePhone='testHome_1', mobilePhone='testMob_1', workPhone='testWork_1', email='test_1@address.com', email2='test_1@address.com', email3='test_1@address.com', group='null', allPhones='null', allEmails='null', contactDetails='null', photo=src/test/resources/test.jpeg}]
+8958 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull
+8959 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactDeletion with parameters []
+10189 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactDeletion
+10190 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactModification with parameters []
+12278 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactModification
+12285 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id='2147483647', name='test1'}]
+14302 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation
+14303 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+15155 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+15156 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+15979 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+15980 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+16708 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+16709 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+17399 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+17400 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+18037 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+18037 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+18644 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+18645 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+19194 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+19195 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+19724 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+19725 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+20184 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+20185 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+21404 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+21404 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+22567 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+22568 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+23729 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+23729 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+24880 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+24880 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+26042 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+26042 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+27183 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+27184 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+28357 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+28358 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+29507 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+29508 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+30684 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+30684 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+31879 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+31880 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+33047 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+33048 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupModification with parameters []
+35005 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupModification
