@@ -1,4 +1,4 @@
-package com.java4qa.rest.Tests;
+package com.java4qa.rest.model;
 
 import java.util.Objects;
 

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+import com.java4qa.rest.model.Issue;
 import org.apache.http.client.fluent.Executor;
 import org.apache.http.client.fluent.Request;
 import org.apache.http.message.BasicNameValuePair;
@@ -14,7 +15,7 @@ import java.util.Set;
 
 import static org.testng.Assert.assertEquals;
 
-public class RestTests {
+public class RestTests extends TestBase {
 
   @Test
   public void testCreateIssue() throws IOException {
@@ -28,7 +29,13 @@ public class RestTests {
   }
 
   private Set<Issue> getIssues() throws IOException {
-    Request request = Request.Get("http://demo.bugify.com/api/issues.json?limit=1000");
+    Request request = Request.Get(
+        String.format(
+            "%s%s?limit=%s",
+            app.getProperty("rest.api.url"),
+            app.getProperty("rest.prefix.issues"),
+            app.getProperty("rest.limit"))
+    );
     String json = gteExecutor().execute(request).returnContent().asString();
     JsonElement parsed = new JsonParser().parse(json);
     JsonElement issues = parsed.getAsJsonObject().get("issues");
@@ -37,14 +44,20 @@ public class RestTests {
   }
 
   private Executor gteExecutor() {
-    return Executor.newInstance().auth("28accbe43ea112d9feb328d2c00b3eed", "");
+    return Executor.newInstance().auth(app.getProperty("rest.login"), "");
   }
 
   private int createIssue(Issue newIssue) throws IOException {
-    String json = gteExecutor().execute(Request.Post("http://demo.bugify.com/api/issues.json")
-        .bodyForm(new BasicNameValuePair("subject", newIssue.getSubject()),
-                  new BasicNameValuePair("description", newIssue.getDescription())))
-        .returnContent().asString();
+    String json = gteExecutor().execute(Request
+        .Post(String.format(
+            "%s%s",
+            app.getProperty("rest.api.url"),
+            app.getProperty("rest.prefix.issues"))
+        ).bodyForm(
+            new BasicNameValuePair("subject", newIssue.getSubject()),
+            new BasicNameValuePair("description", newIssue.getDescription())
+        )).returnContent().asString();
+    System.out.println(json);
     JsonElement parsed = new JsonParser().parse(json);
     return parsed.getAsJsonObject().get("issue_id").getAsInt();
   }
