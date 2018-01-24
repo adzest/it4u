@@ -1,5 +1,7 @@
 package com.java4qa.rest.model;
 
+import biz.futureware.mantis.rpc.soap.client.ObjectRef;
+
 import java.util.Objects;
 
 public class Issue {
@@ -7,6 +9,27 @@ public class Issue {
   private int id;
   private String subject;
   private String description;
+  private String status;
+
+  public String getStateName() {
+    return stateName;
+  }
+
+  public Issue withStateName(String stateName) {
+    this.stateName = stateName;
+    return this;
+  }
+
+  private String stateName;
+
+  public String getStatus() {
+    return status;
+  }
+
+  public Issue withStatus(String status) {
+    this.status = status;
+    return this;
+  }
 
   public int getId() {
     return id;

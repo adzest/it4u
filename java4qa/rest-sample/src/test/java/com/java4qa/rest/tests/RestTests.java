@@ -1,4 +1,4 @@
-package com.java4qa.rest.Tests;
+package com.java4qa.rest.tests;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;

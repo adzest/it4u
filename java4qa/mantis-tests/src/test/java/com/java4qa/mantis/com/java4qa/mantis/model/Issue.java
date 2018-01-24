@@ -6,6 +6,7 @@ public class Issue {
   private int id;
   private String summary;
   private String description;
+  private Project project;
   private String status;
   private String resolution;
 
@@ -27,7 +28,6 @@ public class Issue {
     return this;
   }
 
-  private Project project;
 
   public int getId() {
     return id;

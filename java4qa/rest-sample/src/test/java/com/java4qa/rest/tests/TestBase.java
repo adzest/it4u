@@ -1,8 +1,13 @@
-package com.java4qa.rest.Tests;
+package com.java4qa.rest.tests;
 
 
 import com.java4qa.rest.appmanager.ApplicationManager;
+import org.testng.SkipException;
 import org.testng.annotations.BeforeSuite;
+
+import java.net.MalformedURLException;
+import java.rmi.RemoteException;
+import java.util.Set;
 
 public class TestBase {
 

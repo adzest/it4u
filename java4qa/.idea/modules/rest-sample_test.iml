@@ -34,6 +34,7 @@
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-json:2.4.4" level="project" />
     <orderEntry type="library" name="Gradle: com.jayway.restassured:rest-assured-common:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: biz.futureware.mantis:mantis-axis-soap-client:1.2.19" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="rest-sample_main" />
 </module>
