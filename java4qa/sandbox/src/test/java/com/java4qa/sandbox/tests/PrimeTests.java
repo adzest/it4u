@@ -1,5 +1,6 @@
-package com.java4qa.sandbox;
+package com.java4qa.sandbox.tests;
 
+import com.java4qa.sandbox.Primes;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,6 +1,6 @@
 package com.java4qa.sandbox;
 
-class Square {
+public class Square {
 
     public double l;
 
