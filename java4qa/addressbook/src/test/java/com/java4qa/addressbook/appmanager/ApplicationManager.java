@@ -57,7 +57,7 @@ public class ApplicationManager {
 
     }
 
-    wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+    wd.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     wd.get(properties.getProperty("addressbook.url"));
     sessionHelper = new SessionHelper(wd);
     navigationHelper = new NavigationHelper(wd);
