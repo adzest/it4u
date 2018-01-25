@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f287c7b6-c834-428d-9294-cfc64a43afc9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" afterPath="$PROJECT_DIR$/sandbox/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/sandbox/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/sandbox/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
@@ -2178,17 +2175,6 @@
             </path>
             <path>
               <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-              <item name="junitreports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -2520,7 +2506,7 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
       <envs>
         <env name="PATH" value="$USER_HOME$/Tools" />
@@ -2647,9 +2633,9 @@
       <item index="7" class="java.lang.String" itemvalue="Application.validGroupDataGeneratorXml" />
       <item index="8" class="java.lang.String" itemvalue="Groovy.build" />
       <item index="9" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="10" class="java.lang.String" itemvalue="TestNG.com.java4qa.addressbook.tests" />
-      <item index="11" class="java.lang.String" itemvalue="TestNG.com.java4qa.sandbox.tests" />
-      <item index="12" class="java.lang.String" itemvalue="Groovy.build (2)" />
+      <item index="10" class="java.lang.String" itemvalue="Groovy.build (2)" />
+      <item index="11" class="java.lang.String" itemvalue="TestNG.com.java4qa.addressbook.tests" />
+      <item index="12" class="java.lang.String" itemvalue="TestNG.com.java4qa.sandbox.tests" />
     </list>
     <recent_temporary>
       <list size="5">
