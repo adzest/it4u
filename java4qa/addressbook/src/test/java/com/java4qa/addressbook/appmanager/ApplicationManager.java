@@ -1,14 +1,18 @@
 package com.java4qa.addressbook.appmanager;
 
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -34,16 +38,18 @@ public class ApplicationManager {
     properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
     dbHelper = new DbHelper();
-    switch (browser) {
-      case BrowserType.FIREFOX:
+    if ("".equals(properties.getProperty("selenuim.server"))){
+      if (BrowserType.FIREFOX.equals(browser)) {
         wd = new FirefoxDriver();
-        break;
-      case BrowserType.CHROME:
+      } else if (BrowserType.CHROME.equals(browser)) {
         wd = new ChromeDriver();
-        break;
-      case BrowserType.IE:
+      } else if (BrowserType.IE.equals(browser)) {
         wd = new InternetExplorerDriver();
-        break;
+      } else {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName(browser);
+        wd = new RemoteWebDriver(new URL(properties.getProperty("selenuim.server")), capabilities);
+      }
     }
 
     wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
