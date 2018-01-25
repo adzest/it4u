@@ -81,7 +81,7 @@ public class GroupCreationTests extends TestBase {
     verifyGroupListInUI();
   }
 
-  @Test(enabled = true, dataProvider = "inValidGroupsXml")
+  @Test(enabled = false, dataProvider = "inValidGroupsXml")
   public void testBadGroupCreation(GroupData group) {
     app.goTo().groupPage();
     Groups before = app.group().all();

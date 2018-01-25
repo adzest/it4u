@@ -16,7 +16,11 @@
     <test name="ContactCompare">
         <classes>
             <class name="com.java4qa.addressbook.tests.ContactCompareViewTests"/>
+            <class name="com.java4qa.addressbook.tests.GroupModificationTests" />
+            <class name="com.java4qa.addressbook.tests.GroupDeletionTests" />
         </classes>
     </test>
 
 </suite>
+
+

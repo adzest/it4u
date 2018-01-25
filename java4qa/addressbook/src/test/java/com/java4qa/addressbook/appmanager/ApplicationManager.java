@@ -47,12 +47,12 @@ public class ApplicationManager {
     }
 
     wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-    wd.get(properties.getProperty("mantis.url"));
+    wd.get(properties.getProperty("addressbook.url"));
     sessionHelper = new SessionHelper(wd);
     navigationHelper = new NavigationHelper(wd);
     groupHelper = new GroupHelper(wd);
     contactHelper = new ContactHelper(wd);
-    sessionHelper.loginToWebApp(properties.getProperty("mantis.admin"), properties.getProperty("mantis.password"));
+    sessionHelper.loginToWebApp(properties.getProperty("addressbook.admin"), properties.getProperty("addressbook.password"));
   }
 
   public void stop() {
