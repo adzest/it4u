@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.java4qa.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-26T19:39:26" hostname="AIsakov-MBP.local" time="2.531">
+<testsuite name="com.java4qa.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-25T18:01:14" hostname="Isakov-MBP.local" time="0.641">
   <properties/>
-  <testcase name="testGroupModification" classname="com.java4qa.addressbook.tests.GroupModificationTests" time="2.531"/>
+  <testcase name="testGroupModification" classname="com.java4qa.addressbook.tests.GroupModificationTests" time="0.641"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

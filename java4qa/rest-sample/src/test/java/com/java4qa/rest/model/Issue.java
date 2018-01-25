@@ -1,7 +1,5 @@
 package com.java4qa.rest.model;
 
-import biz.futureware.mantis.rpc.soap.client.ObjectRef;
-
 import java.util.Objects;
 
 public class Issue {

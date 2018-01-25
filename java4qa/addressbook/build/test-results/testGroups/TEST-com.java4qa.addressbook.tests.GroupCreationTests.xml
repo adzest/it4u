@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.java4qa.addressbook.tests.GroupCreationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-12-26T19:39:07" hostname="AIsakov-MBP.local" time="18.371">
+<testsuite name="com.java4qa.addressbook.tests.GroupCreationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-01-25T18:01:04" hostname="Isakov-MBP.local" time="10.016">
   <properties/>
-  <testcase name="testBadGroupCreation[0](GroupData{id='2147483647', name='test'1'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="4.524"/>
-  <testcase name="testBadGroupCreation[1](GroupData{id='2147483647', name='test'2'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.721"/>
-  <testcase name="testBadGroupCreation[2](GroupData{id='2147483647', name='test'3'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.748"/>
-  <testcase name="testGroupCreation[0](GroupData{id='2147483647', name='test1'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.765"/>
-  <testcase name="testGroupCreation[1](GroupData{id='2147483647', name='test2'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.746"/>
-  <testcase name="testGroupCreation[2](GroupData{id='2147483647', name='test3'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.852"/>
+  <testcase name="testGroupCreation[0](GroupData{id=2147483647, name='test1', header='header_1', footer='footer_1'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="2.356"/>
+  <testcase name="testGroupCreation[1](GroupData{id=2147483647, name='test2', header='header_2', footer='footer_2'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="6.007"/>
+  <testcase name="testGroupCreation[2](GroupData{id=2147483647, name='test3', header='header_3', footer='footer_3'})" classname="com.java4qa.addressbook.tests.GroupCreationTests" time="1.649"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
