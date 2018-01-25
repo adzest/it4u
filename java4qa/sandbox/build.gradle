@@ -14,3 +14,11 @@ dependencies {
 test  {
     useTestNG()
 }
+
+sourceSets {
+    test {
+        java {
+            srcDirs = ["src"]
+        }
+    }
+}
