@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="9234" started-at="2018-01-25T11:02:59Z" finished-at="2018-01-25T11:03:08Z">
+    <groups>
+    </groups>
+    <test name="java4qa" duration-ms="9234" started-at="2018-01-25T11:02:59Z" finished-at="2018-01-25T11:03:08Z">
+      <class name="com.java4qa.sandbox.tests.PrimeTests">
+        <test-method status="PASS" signature="testNonPrime()[pri:0, instance:com.java4qa.sandbox.tests.PrimeTests@445b84c0]" name="testNonPrime" duration-ms="11" started-at="2018-01-25T13:02:59Z" finished-at="2018-01-25T13:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonPrime -->
+        <test-method status="PASS" signature="testPrime()[pri:0, instance:com.java4qa.sandbox.tests.PrimeTests@445b84c0]" name="testPrime" duration-ms="6094" started-at="2018-01-25T13:02:59Z" finished-at="2018-01-25T13:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrime -->
+        <test-method status="PASS" signature="testPrimeFast()[pri:0, instance:com.java4qa.sandbox.tests.PrimeTests@445b84c0]" name="testPrimeFast" duration-ms="3095" started-at="2018-01-25T13:03:05Z" finished-at="2018-01-25T13:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeFast -->
+        <test-method status="PASS" signature="testPrimeSuperFast()[pri:0, instance:com.java4qa.sandbox.tests.PrimeTests@445b84c0]" name="testPrimeSuperFast" duration-ms="0" started-at="2018-01-25T13:03:08Z" finished-at="2018-01-25T13:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeSuperFast -->
+      </class> <!-- com.java4qa.sandbox.tests.PrimeTests -->
+      <class name="com.java4qa.sandbox.tests.SquareTests">
+        <test-method status="PASS" signature="testArea()[pri:0, instance:com.java4qa.sandbox.tests.SquareTests@63d4e2ba]" name="testArea" duration-ms="2" started-at="2018-01-25T13:03:08Z" finished-at="2018-01-25T13:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArea -->
+      </class> <!-- com.java4qa.sandbox.tests.SquareTests -->
+    </test> <!-- java4qa -->
+  </suite> <!-- Default Suite -->
+</testng-results>
