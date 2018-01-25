@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f287c7b6-c834-428d-9294-cfc64a43afc9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/rest-sample_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/rest-sample_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/model/Issue.java" afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/model/Issue.java" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestAssuredTests$1.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestAssuredTests$1.class" />
+      <change beforePath="$PROJECT_DIR$/github-sample/build.gradle" afterPath="$PROJECT_DIR$/github-sample/build.gradle" />
       <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestAssuredTests.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestAssuredTests.class" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestTests$1.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestTests$1.class" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestTests.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/RestTests.class" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/TestBase.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/Tests/TestBase.class" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/model/Issue.class" afterPath="$PROJECT_DIR$/rest-sample/out/test/classes/com/java4qa/rest/model/Issue.class" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Tests/RestAssuredTests.java" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Tests/RestTests.java" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestTests.java" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Tests/TestBase.java" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/TestBase.java" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/model/Issue.java" afterPath="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/model/Issue.java" />
-      <change beforePath="$PROJECT_DIR$/rest-sample/src/test/resources/local.properties" afterPath="$PROJECT_DIR$/rest-sample/src/test/resources/local.properties" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" afterPath="$PROJECT_DIR$/sandbox/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/soap-sample/build.gradle" afterPath="$PROJECT_DIR$/soap-sample/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
@@ -98,7 +89,7 @@
       <file leaf-file-name="RestAssuredTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="-268">
               <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="method#init#0;class#RestAssuredTests#0" expanded="false" />
@@ -111,61 +102,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodInvocationHelper.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="581" column="0" lean-forward="false" selection-start-line="581" selection-start-column="0" selection-end-line="581" selection-end-column="0" />
+            <state relative-caret-position="-130">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rest-sample/src/test/resources/local.properties">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/github-sample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/ContactCreationTests.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mantis-tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="829">
-              <caret line="92" column="87" lean-forward="false" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="87" />
+            <state relative-caret-position="285">
+              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rest-sample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbConnectionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/HbConnectionTest.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/soap-sample/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -175,7 +166,7 @@
         <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -194,7 +185,7 @@
       <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="705">
               <caret line="65" column="96" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="96" />
               <folding />
             </state>
@@ -1242,11 +1233,11 @@
       <map>
         <entry key="$PROJECT_DIR$/addressbook" value="3031607707000" />
         <entry key="$PROJECT_DIR$/addressbook/build.gradle" value="1817350295" />
-        <entry key="$PROJECT_DIR$/addressbook/gradle/wrapper/gradle-wrapper.properties" value="1061797022" />
+        <entry key="$PROJECT_DIR$/addressbook/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
         <entry key="$PROJECT_DIR$/bugify-tests/build.gradle" value="1116535114" />
         <entry key="$PROJECT_DIR$/bugify-tests/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
-        <entry key="$PROJECT_DIR$/github-sample" value="3032741335000" />
-        <entry key="$PROJECT_DIR$/github-sample/build.gradle" value="1015375132" />
+        <entry key="$PROJECT_DIR$/github-sample" value="3032902795000" />
+        <entry key="$PROJECT_DIR$/github-sample/build.gradle" value="2989164624" />
         <entry key="$PROJECT_DIR$/github-sample/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
         <entry key="$PROJECT_DIR$/mantis-tests" value="3032559296000" />
         <entry key="$PROJECT_DIR$/mantis-tests/build.gradle" value="1116535114" />
@@ -1254,8 +1245,8 @@
         <entry key="$PROJECT_DIR$/rest-sample" value="3032729020000" />
         <entry key="$PROJECT_DIR$/rest-sample/build.gradle" value="514174698" />
         <entry key="$PROJECT_DIR$/rest-sample/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
-        <entry key="$PROJECT_DIR$/sandbox" value="4542871075000" />
-        <entry key="$PROJECT_DIR$/sandbox/build.gradle" value="3511763045" />
+        <entry key="$PROJECT_DIR$/sandbox" value="4546576687000" />
+        <entry key="$PROJECT_DIR$/sandbox/build.gradle" value="1201571179" />
         <entry key="$PROJECT_DIR$/sandbox/gradle/wrapper/gradle-wrapper.properties" value="1061797022" />
         <entry key="$PROJECT_DIR$/sandbox/settings.gradle" value="3056939245" />
         <entry key="$PROJECT_DIR$/soap-sample" value="3029699503000" />
@@ -2118,7 +2109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/model/GroupData.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/model/ContactData.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/ContactComparePhoneTests.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java" />
@@ -2141,7 +2131,6 @@
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/appmanager/JamesHelper.java" />
         <option value="$PROJECT_DIR$/soap-sample/src/main/java/net/webservicex/GeoIP.java" />
         <option value="$PROJECT_DIR$/soap-sample/src/test/java/com/java4qa/soap/GeoIpServiceTests.java" />
-        <option value="$PROJECT_DIR$/soap-sample/build.gradle" />
         <option value="$PROJECT_DIR$/mantis-tests/build.gradle" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/model/Project.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/appmanager/ApplicationManager.java" />
@@ -2155,7 +2144,6 @@
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/HelperBase.java" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Tests/RestAssuredTests.java" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Tests/RestTests.java" />
-        <option value="$PROJECT_DIR$/github-sample/build.gradle" />
         <option value="$PROJECT_DIR$/github-sample/src/test/java/com/java4qa/github/GithubTests.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/tests/LoginTests.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/tests/SoapTests.java" />
@@ -2169,6 +2157,9 @@
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/model/Issue.java" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java" />
+        <option value="$PROJECT_DIR$/sandbox/build.gradle" />
+        <option value="$PROJECT_DIR$/github-sample/build.gradle" />
+        <option value="$PROJECT_DIR$/soap-sample/build.gradle" />
       </list>
     </option>
   </component>
@@ -2193,86 +2184,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="soap-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
@@ -2339,7 +2270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestAssuredTests.testCreateIssue">
+  <component name="RunManager" selected="TestNG.RestAssuredTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -2733,8 +2664,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RestAssuredTests.testCreateIssue" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RestAssuredTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.RestAssuredTests" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RestAssuredTests.testCreateIssue" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.RestAssuredTests.testCloseIssue" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.WithIntegrationsTests.testLoginIntegrationWithMantis" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTests.testLogin" />
@@ -2758,7 +2689,7 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestAssuredTests - 2018.01.24 at 13h 47m 33s.xml">
+    <history-entry file="RestAssuredTests - 2018.01.24 at 21h 30m 56s.xml">
       <configuration name="RestAssuredTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RestAssuredTests_testCreateIssue - 2018.01.24 at 13h 51m 41s.xml">
@@ -2791,6 +2722,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2800,29 +2732,29 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30097088" sideWeight="0.5078125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24757281" sideWeight="0.4921875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30097088" sideWeight="0.4921875" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29417476" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="5.2083336E-4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3747573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3747573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29417476" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2862,18 +2794,6 @@
           <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java</url>
-          <line>131</line>
-          <properties />
-          <option name="timeStamp" value="383" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java</url>
-          <line>130</line>
-          <properties />
-          <option name="timeStamp" value="385" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="386" />
     </breakpoint-manager>
@@ -2904,9 +2824,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/SftpHelper.java" />
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/MailHelper.java" />
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/HttpSession.java" />
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/SoapHelper.java" />
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/FtpHelper.java" />
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/appmanager/RegistrationHelper.java" />
@@ -2916,30 +2833,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#249#250#0" expanded="false" />
-            <element signature="e#288#289#0" expanded="false" />
-            <element signature="e#543#544#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mantis-tests/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/github-sample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcabi/jcabi-github/0.33.1/25721fb919a35628095bf97e0dec6f5a98df73ed/jcabi-github-0.33.1-sources.jar!/com/jcabi/github/RepoCommit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -2961,19 +2858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantis-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2981,7 +2869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2989,7 +2876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="199" column="72" lean-forward="true" selection-start-line="199" selection-start-column="72" selection-end-line="199" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2997,7 +2883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3005,7 +2890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3013,7 +2897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3021,9 +2904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3031,7 +2911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3047,7 +2926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3055,7 +2933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="372" column="65" lean-forward="true" selection-start-line="372" selection-start-column="65" selection-end-line="372" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3063,7 +2940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3071,7 +2947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3079,16 +2954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="method#withId#0;class#Issue#0" expanded="false" />
-            <element signature="method#withSummary#0;class#Issue#0" expanded="false" />
-            <element signature="method#withDescription#0;class#Issue#0" expanded="false" />
-            <element signature="method#withProject#0;class#Issue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3096,7 +2961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" column="96" lean-forward="false" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3104,10 +2968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="66" />
-          <folding>
-            <element signature="e#8761#8762#0" expanded="false" />
-            <element signature="e#8790#8791#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3115,16 +2975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="method#withId#0;class#Issue#0" expanded="false" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="method#withSubject#0;class#Issue#0" expanded="false" />
-            <element signature="method#withDescription#0;class#Issue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3132,7 +2982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3140,7 +2989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="952" column="38" lean-forward="true" selection-start-line="952" selection-start-column="38" selection-end-line="952" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3148,7 +2996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3156,7 +3003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3164,7 +3010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-345">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3172,7 +3017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3180,13 +3024,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="556" column="39" lean-forward="true" selection-start-line="556" selection-start-column="39" selection-end-line="556" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8070">
+          <caret line="581" column="0" lean-forward="false" selection-start-line="581" selection-start-column="0" selection-end-line="581" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/resources/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/ContactCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
+        <state relative-caret-position="1080">
           <caret line="92" column="87" lean-forward="false" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="87" />
           <folding />
         </state>
@@ -3194,7 +3060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
+        <state relative-caret-position="60">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
@@ -3202,7 +3068,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/HbConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
+        <state relative-caret-position="60">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
@@ -3211,7 +3077,7 @@
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -3226,39 +3092,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="705">
           <caret line="65" column="96" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rest-sample/src/test/resources/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="581" column="0" lean-forward="false" selection-start-line="581" selection-start-column="0" selection-end-line="581" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/tests/RestAssuredTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="-268">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="method#init#0;class#RestAssuredTests#0" expanded="false" />
@@ -3270,10 +3120,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+    <entry file="file://$PROJECT_DIR$/sandbox/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/github-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantis-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soap-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -3318,7 +3208,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>IntelliJ IDEA Community Edition IC-173.4127.27</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
