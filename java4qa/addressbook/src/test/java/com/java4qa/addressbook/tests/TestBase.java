@@ -26,7 +26,7 @@ public class TestBase {
   Logger logger = LoggerFactory.getLogger(TestBase.class);
 
   protected static final ApplicationManager app
-        = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
+      = new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
   public static String cleaned(String contactFiled) {
     return contactFiled.replaceAll("\\s", "").replaceAll("[-()]", "");
@@ -54,16 +54,16 @@ public class TestBase {
 
   public String mergePhones(ContactData contact) {
     return Stream.of(contact.getHomePhone(), contact.getMobilePhone(), contact.getWorkPhone(), contact.getHomePhoneNum())
-          .filter((s) -> !s.equals(""))
-          .map(TestBase::cleaned)
-          .collect(Collectors.joining("\n"));
+        .filter((s) -> !s.equals(""))
+        .map(TestBase::cleaned)
+        .collect(Collectors.joining("\n"));
   }
 
   public String mergeEmails(ContactData contact) {
     return Stream.of(contact.getEmail(), contact.getEmail2(), contact.getEmail3())
-          .filter((s) -> !s.equals(""))
-          .map(TestBase::cleaned)
-          .collect(Collectors.joining("\n"));
+        .filter((s) -> !s.equals(""))
+        .map(TestBase::cleaned)
+        .collect(Collectors.joining("\n"));
   }
 
   public static void verifyGroupListInUI() {
@@ -71,10 +71,10 @@ public class TestBase {
       Groups dbGroups = app.db().groups();
       Groups uiGroups = app.group().all();
       assertThat(uiGroups, equalTo(dbGroups
-                  .stream()
-                  .map((g) -> new GroupData().withId(g.getId()).withName(g.getName()))
-                  .collect(Collectors.toSet())
-            )
+              .stream()
+              .map((g) -> new GroupData().withId(g.getId()).withName(g.getName()))
+              .collect(Collectors.toSet())
+          )
       );
     }
   }
@@ -84,14 +84,14 @@ public class TestBase {
       Contacts dbContacts = app.db().contacts();
       Contacts uiContacts = app.contact().all();
       assertThat(uiContacts, equalTo(dbContacts
-                  .stream()
-                  .map((c) -> new ContactData()
-                        .withId(c.getId())
-                        .withFirst(c.getFirstName())
-                        .withLast(c.getLastName())
-                  )
-                  .collect(Collectors.toSet())
-            )
+              .stream()
+              .map((c) -> new ContactData()
+                  .withId(c.getId())
+                  .withFirst(c.getFirstName())
+                  .withLast(c.getLastName())
+              )
+              .collect(Collectors.toSet())
+          )
       );
     }
   }

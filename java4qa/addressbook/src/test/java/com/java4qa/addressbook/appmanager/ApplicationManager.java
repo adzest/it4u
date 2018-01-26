@@ -1,6 +1,5 @@
 package com.java4qa.addressbook.appmanager;
 
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,8 +16,6 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import static org.testng.Reporter.log;
-
 public class ApplicationManager {
   private final Properties properties;
   WebDriver wd;
@@ -29,7 +26,6 @@ public class ApplicationManager {
   private GroupHelper groupHelper;
   private String browser;
   private DbHelper dbHelper;
-
 
   public ApplicationManager(String browser) {
     this.browser = browser;
@@ -53,6 +49,7 @@ public class ApplicationManager {
     } else {
       DesiredCapabilities capabilities = new DesiredCapabilities();
       capabilities.setBrowserName(browser);
+      capabilities.setPlatform(Platform.fromString(System.getProperty("platform", String.valueOf(Platform.MAC))));
       wd = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
 
     }
