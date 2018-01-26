@@ -1239,3 +1239,6 @@
 1931 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7a360554
 1933 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: e50ec852-b3ed-4dcf-b64e-25a387799c68 (<unnamed>)
 1933 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+32334 [pool-1-thread-1] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained
+50307 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id=2147483647, name='test1', header='header_1', footer='footer_1'}]
+54944 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation

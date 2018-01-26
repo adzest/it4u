@@ -2,6 +2,6 @@
   {
     "name": "test1",
     "header": "header_1",
-    "footer": "footer_1"
+    "footer": "_foo"
   }
 ]
