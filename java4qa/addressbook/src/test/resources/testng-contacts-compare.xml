@@ -1,19 +1,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Functional-web" verbose="1" parallel="classes" thread-count="3" >
-   <test name="ContactPhone">
+<suite name="Functional-web" verbose="1">
+   <test name="ContactPhone"  verbose="1">
         <classes>
             <class name="com.java4qa.addressbook.tests.ContactComparePhoneTests"/>
         </classes>
     </test>
 
-    <test name="ContactEmail">
+    <test name="ContactEmail" verbose="1">
     <classes>
         <class name="com.java4qa.addressbook.tests.ContactCompareEmailTests"/>
     </classes>
     </test>
 
-    <test name="ContactCompare">
+    <test name="ContactCompare" verbose="1">
         <classes>
             <class name="com.java4qa.addressbook.tests.ContactCompareViewTests"/>
             <class name="com.java4qa.addressbook.tests.GroupModificationTests" />

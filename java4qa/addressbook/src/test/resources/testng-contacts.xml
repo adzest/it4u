@@ -1,7 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Functional-web" verbose="1" parallel="classes" thread-count="3">
-    <test name="Contacts">
+<suite name="Functional-web">
+    <test name="Contacts" verbose="1">
+          <!--parallel="classes" thread-count="3">-->
         <classes>
             <class name="com.java4qa.addressbook.tests.ContactCreationTests"/>
             <class name="com.java4qa.addressbook.tests.ContactModificationTests"/>
