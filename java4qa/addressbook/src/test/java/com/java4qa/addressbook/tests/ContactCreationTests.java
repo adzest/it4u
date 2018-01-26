@@ -36,7 +36,7 @@ public class ContactCreationTests extends TestBase {
 
   @DataProvider
   public Iterator<Object[]> validContactsFromXml() throws IOException {
-    BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/validContacts.xml")));
+    BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/data_vContacts.xml")));
     String xml = "";
     String line = reader.readLine();
     while (line != null) {
@@ -51,7 +51,7 @@ public class ContactCreationTests extends TestBase {
 
   @DataProvider
   public Iterator<Object[]> validContactsFromJson() throws IOException {
-    BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/validContacts.json")));
+    BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/data_vContacts.json")));
     String json = "";
     String line = reader.readLine();
     while (line != null) {

@@ -44,41 +44,41 @@ task testGroups(type: Test) {
     }
 }
 
-//task testContacts(type: Test) {
-//    useTestNG() {
-//        suites 'src/test/resources/testng-contacts.xml'
-//    }
-//    if (project.hasProperty('target')) {
-//        systemProperty 'target', "${target}"
-//    }
-//    if (project.hasProperty('platform')) {
-//        systemProperty 'platform', "${platform}"
-//    }
-//    if (project.hasProperty('browser')) {
-//        systemProperty 'browser', "${browser}"
-//    }
-//    if (project.hasProperty('verifyUI')) {
-//        systemProperty 'verifyUI', "${verifyUI}"
-//    }
-//}
-//
-//task testContactsCompare(type: Test) {
-//    useTestNG() {
-//        suites 'src/test/resources/testng-contacts-compare.xml'
-//    }
-//    if (project.hasProperty('target')) {
-//        systemProperty 'target', "${target}"
-//    }
-//    if (project.hasProperty('platform')) {
-//        systemProperty 'platform', "${platform}"
-//    }
-//    if (project.hasProperty('browser')) {
-//        systemProperty 'browser', "${browser}"
-//    }
-//    if (project.hasProperty('verifyUI')) {
-//        systemProperty 'verifyUI', "${verifyUI}"
-//    }
-//}
+task testContacts(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/testng-contacts.xml'
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+    if (project.hasProperty('platform')) {
+        systemProperty 'platform', "${platform}"
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('verifyUI')) {
+        systemProperty 'verifyUI', "${verifyUI}"
+    }
+}
+
+task testContactsCompare(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/testng-contacts-compare.xml'
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+    if (project.hasProperty('platform')) {
+        systemProperty 'platform', "${platform}"
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('verifyUI')) {
+        systemProperty 'verifyUI', "${verifyUI}"
+    }
+}
 
 test.doFirst {
     jvmArgs "-javaagent:${configurations.agent.singleFile}"
