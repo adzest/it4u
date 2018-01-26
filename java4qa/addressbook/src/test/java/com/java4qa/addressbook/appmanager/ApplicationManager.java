@@ -33,6 +33,9 @@ public class ApplicationManager {
   }
 
   public void init() throws IOException {
+    System.setProperty("webdriver.gecko.driver", "geckodriver");
+    System.setProperty("webdriver.chrome.driver", "chromedriver");
+    System.setProperty("webdriver", "/Users/alexeyisakov/Documents/GitHub/it4u/java4qa/addressbook/chromedriver");
     String target = System.getProperty("target", "local");
     File file = new File(String.format("src/test/resources/%s.properties", target));
     properties.load(new FileReader(file));
@@ -45,7 +48,7 @@ public class ApplicationManager {
         wd = new ChromeDriver();
       } else if (BrowserType.IE.equals(browser)) {
         wd = new InternetExplorerDriver();
-      }
+      } else browser = BrowserType.CHROME;
     } else {
       DesiredCapabilities capabilities = new DesiredCapabilities();
       capabilities.setBrowserName(browser);

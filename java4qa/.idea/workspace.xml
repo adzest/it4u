@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f287c7b6-c834-428d-9294-cfc64a43afc9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/addressbook/src/test/resources/invalidGroups.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.csv" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.json" afterPath="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.json" />
+      <change beforePath="$PROJECT_DIR$/addressbook/out/test/classes/com/java4qa/addressbook/appmanager/ApplicationManager.class" afterPath="$PROJECT_DIR$/addressbook/out/test/classes/com/java4qa/addressbook/appmanager/ApplicationManager.class" />
+      <change beforePath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" />
+      <change beforePath="$PROJECT_DIR$/addressbook/src/test/resources/remote.properties" afterPath="$PROJECT_DIR$/addressbook/src/test/resources/remote.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
@@ -85,26 +85,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="remote.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="remote.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/remote.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="method#ApplicationManager#0;class#ApplicationManager#0" expanded="false" />
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2394#2395#0" expanded="true" />
+                <element signature="e#2657#2658#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2132,9 +2152,9 @@
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/testng-contacts-compare.xml" />
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/testng-contacts.xml" />
         <option value="$PROJECT_DIR$/addressbook/build.gradle" />
+        <option value="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.json" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/remote.properties" />
-        <option value="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.json" />
       </list>
     </option>
   </component>
@@ -2305,7 +2325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Local:FF-GroupCreationTests">
+  <component name="RunManager" selected="TestNG.GroupCreationTests.testGroupCreation">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -2511,7 +2531,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="DbConnectionTest.testDbConnection" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
@@ -2523,10 +2543,10 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.java4qa.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.java4qa.addressbook.tests.DbConnectionTest" />
-      <option name="METHOD_NAME" value="testDbConnection" />
+      <option name="MAIN_CLASS_NAME" value="com.java4qa.addressbook.tests.GroupCreationTests" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/addressbook" />
@@ -2545,7 +2565,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
@@ -2558,9 +2578,9 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.java4qa.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="com.java4qa.addressbook.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/addressbook" />
@@ -2663,7 +2683,7 @@
       <option name="METHOD_NAME" value="testGroupCreation" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dbrowser=firefox -Dtarget=remote" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=chtome -Dtarget=remote" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/addressbook" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -2899,18 +2919,18 @@
       <item index="9" class="java.lang.String" itemvalue="TestNG.Local:GC-GroupCreationTests" />
       <item index="10" class="java.lang.String" itemvalue="TestNG.Local:FF-GroupCreationTests" />
       <item index="11" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
-      <item index="12" class="java.lang.String" itemvalue="TestNG.DbConnectionTest.testDbConnection" />
-      <item index="13" class="java.lang.String" itemvalue="TestNG.Remote:Linux-GC-GroupCreationTests" />
-      <item index="14" class="java.lang.String" itemvalue="TestNG.HbConnectionTest" />
-      <item index="15" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testContactCreationFull" />
+      <item index="12" class="java.lang.String" itemvalue="TestNG.Remote:Linux-GC-GroupCreationTests" />
+      <item index="13" class="java.lang.String" itemvalue="TestNG.HbConnectionTest" />
+      <item index="14" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testContactCreationFull" />
+      <item index="15" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Remote:Linux-GC-GroupCreationTests" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testContactCreationFull" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.HbConnectionTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.DbConnectionTest.testDbConnection" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.testGroupCreation" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Remote:Linux-GC-GroupCreationTests" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreationTests.testContactCreationFull" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreationTests" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.HbConnectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -2931,34 +2951,34 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 49m 31s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 58m 36s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 12h 00m 05s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 12h 00m 24s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 12h 00m 47s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupCreationTests_testGroupCreation - 2018.01.26 at 12h 03m 10s.xml">
+      <configuration name="GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="Local_FF-GroupCreationTests - 2018.01.26 at 11h 42m 08s.xml">
       <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Local_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 15m 38s.xml">
-      <configuration name="Local:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Local_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 16m 12s.xml">
-      <configuration name="Local:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.25 at 21h 49m 17s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 01m 56s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 04m 59s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 06m 17s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.26 at 11h 08m 17s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Remote_Mac-GC-GroupCreationTests - 2018.01.26 at 11h 40m 42s.xml">
-      <configuration name="Remote:Mac-GC-GroupCreationTests" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.01.26 at 11h 43m 36s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Remote_Mac-GC-GroupCreationTests - 2018.01.26 at 11h 41m 44s.xml">
+      <configuration name="Remote:Mac-GC-GroupCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Remote_Mac-GC-GroupCreationTests - 2018.01.26 at 11h 59m 52s.xml">
       <configuration name="Remote:Mac-GC-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -2974,7 +2994,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37363967" sideWeight="0.5078684" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38430983" sideWeight="0.48988286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38430983" sideWeight="0.48988286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2985,7 +3005,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48659384" sideWeight="0.49213162" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48659384" sideWeight="0.49213162" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3038,12 +3058,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java</url>
-          <line>52</line>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="405" />
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="417" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="411" />
+      <option name="time" value="418" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3120,6 +3152,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3141,6 +3174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3328,14 +3362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -3359,6 +3385,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="53" column="68" lean-forward="true" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3402,25 +3429,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2569">
-          <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="748" column="25" lean-forward="false" selection-start-line="748" selection-start-column="25" selection-end-line="748" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/remote.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -3449,15 +3461,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="304">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="method#ApplicationManager#0;class#ApplicationManager#0" expanded="false" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/remote.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
