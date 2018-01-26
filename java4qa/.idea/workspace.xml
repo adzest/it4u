@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f287c7b6-c834-428d-9294-cfc64a43afc9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/addressbook/out/test/resources/allure.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/addressbook/out/test/resources/validGroups.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" />
+      <change beforePath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListner.java" afterPath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListener.java" />
+      <change beforePath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java" afterPath="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
@@ -84,64 +85,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
+      <file leaf-file-name="GroupDeletionTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupDeletionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="60">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
-                <element signature="e#83#105#0" expanded="false" />
-                <element signature="e#83#105#0" expanded="false" />
-                <element signature="e#122#135#0" expanded="false" />
-                <element signature="e#122#135#0" expanded="false" />
-                <element signature="e#150#801#0" expanded="false" />
-                <element signature="e#831#1295#0" expanded="false" />
-                <element signature="e#849#910#0" expanded="false" />
-                <element signature="e#849#910#0" expanded="false" />
-                <element signature="e#950#1002#1" expanded="false" />
-                <element signature="e#950#1002#0" expanded="false" />
-                <element signature="e#950#1002#1" expanded="false" />
-                <element signature="e#1044#1100#1" expanded="false" />
-                <element signature="e#1044#1100#0" expanded="false" />
-                <element signature="e#1044#1100#1" expanded="false" />
-                <element signature="e#1141#1195#1" expanded="false" />
-                <element signature="e#1141#1195#0" expanded="false" />
-                <element signature="e#1141#1195#1" expanded="false" />
-                <element signature="e#1237#1293#1" expanded="false" />
-                <element signature="e#1237#1293#0" expanded="false" />
-                <element signature="e#1237#1293#1" expanded="false" />
-                <element signature="e#1327#1793#0" expanded="false" />
-                <element signature="e#1345#1408#0" expanded="false" />
-                <element signature="e#1345#1408#0" expanded="false" />
-                <element signature="e#1448#1500#1" expanded="false" />
-                <element signature="e#1448#1500#0" expanded="false" />
-                <element signature="e#1448#1500#1" expanded="false" />
-                <element signature="e#1542#1598#1" expanded="false" />
-                <element signature="e#1542#1598#0" expanded="false" />
-                <element signature="e#1542#1598#1" expanded="false" />
-                <element signature="e#1639#1693#1" expanded="false" />
-                <element signature="e#1639#1693#0" expanded="false" />
-                <element signature="e#1639#1693#1" expanded="false" />
-                <element signature="e#1735#1791#1" expanded="false" />
-                <element signature="e#1735#1791#0" expanded="false" />
-                <element signature="e#1735#1791#1" expanded="false" />
-                <element signature="e#1832#2306#0" expanded="false" />
-                <element signature="e#1850#1921#0" expanded="false" />
-                <element signature="e#1850#1921#0" expanded="false" />
-                <element signature="e#1961#2013#1" expanded="false" />
-                <element signature="e#1961#2013#0" expanded="false" />
-                <element signature="e#1961#2013#1" expanded="false" />
-                <element signature="e#2055#2111#1" expanded="false" />
-                <element signature="e#2055#2111#0" expanded="false" />
-                <element signature="e#2055#2111#1" expanded="false" />
-                <element signature="e#2152#2206#1" expanded="false" />
-                <element signature="e#2152#2206#0" expanded="false" />
-                <element signature="e#2152#2206#1" expanded="false" />
-                <element signature="e#2248#2304#1" expanded="false" />
-                <element signature="e#2248#2304#0" expanded="false" />
-                <element signature="e#2248#2304#1" expanded="false" />
-                <element signature="e#2321#2384#0" expanded="false" />
-                <element signature="e#2321#2384#0" expanded="false" />
+                <element signature="method#cleaned#0;class#TestBase#0" expanded="false" />
+                <element signature="method#logTestStart#0;class#TestBase#0" expanded="false" />
+                <element signature="method#mergePhones#0;class#TestBase#0" expanded="false" />
+                <element signature="method#mergeEmails#0;class#TestBase#0" expanded="false" />
+                <element signature="method#verifyGroupListInUI#0;class#TestBase#0" expanded="false" />
+                <element signature="method#verifyContactListInUI#0;class#TestBase#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -150,9 +115,25 @@
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-              <folding />
+            <state relative-caret-position="334">
+              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <element signature="e#3003#3004#0" expanded="true" />
+                <element signature="e#3076#3077#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyTestListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2140,8 +2121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/soap-sample/src/test/java/com/java4qa/soap/GeoIpServiceTests.java" />
-        <option value="$PROJECT_DIR$/mantis-tests/build.gradle" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/model/Project.java" />
         <option value="$PROJECT_DIR$/mantis-tests/src/test/java/com/java4qa/mantis/com/java4qa/mantis/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/rest-sample/src/test/java/com/java4qa/rest/Issue.java" />
@@ -2184,13 +2163,15 @@
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/remote.properties" />
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/allure.properties" />
-        <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListner.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/resources/validGroups.json" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListуner.java" />
+        <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListner.java" />
+        <option value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListener.java" />
       </list>
     </option>
   </component>
@@ -2222,6 +2203,17 @@
             <path>
               <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
@@ -2299,7 +2291,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="mantis.admin&#9;null&#9;null&#10;ObjectRef&#9;null&#9;null&#10;allPhones&#9;PSI&#9;JAVA://com.java4qa.addressbook.model.ContactData#allPhones&#10;stream().map(&#9;null&#9;null&#10;withContactDetails&#9;PSI&#9;JAVA://com.java4qa.addressbook.model.ContactData#withContactDetails&#10;for (ContactData contact : contacts)&#9;null&#9;null&#10;generatorContacts&#9;PSI&#9;JAVA://com.java4qa.addressbook.generators.ContactDataGenerator#generatorContacts&#10;contactDetails&#9;PSI&#9;JAVA://com.java4qa.addressbook.appmanager.ContactHelper#initContactDetailsPageById" />
+    <property name="SearchEverywhereHistoryKey" value="allure.properties&#9;FILE&#9;file:///Users/alexeyisakov/Documents/GitHub/it4u/java4qa/addressbook/src/test/resources/prs_allure.properties&#10;mantis.admin&#9;null&#9;null&#10;ObjectRef&#9;null&#9;null&#10;allPhones&#9;PSI&#9;JAVA://com.java4qa.addressbook.model.ContactData#allPhones&#10;stream().map(&#9;null&#9;null&#10;withContactDetails&#9;PSI&#9;JAVA://com.java4qa.addressbook.model.ContactData#withContactDetails&#10;for (ContactData contact : contacts)&#9;null&#9;null&#10;generatorContacts&#9;PSI&#9;JAVA://com.java4qa.addressbook.generators.ContactDataGenerator#generatorContacts&#10;contactDetails&#9;PSI&#9;JAVA://com.java4qa.addressbook.appmanager.ContactHelper#initContactDetailsPageById" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ContactHelper.java" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -2536,7 +2528,7 @@
     <configuration name="ContactCreationTests.testContactCreationFull" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2570,7 +2562,7 @@
     <configuration name="GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2604,7 +2596,7 @@
     <configuration name="GroupCreationTests.testGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2638,7 +2630,7 @@
     <configuration name="Local:FF-GroupCreationTests" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2672,7 +2664,7 @@
     <configuration name="Local:GC-GroupCreationTests" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2740,7 +2732,7 @@
     <configuration name="Remote:Linux-GC-GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -2774,7 +2766,7 @@
     <configuration name="Remote:Mac-GC-GroupCreationTests" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.java4qa.addressbook.tests.*" />
+          <option name="PATTERN" value="com.java4qa.addressbook.tests.MyTestListener" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -3086,18 +3078,6 @@
           <properties />
           <option name="timeStamp" value="249" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="423" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="424" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="425" />
     </breakpoint-manager>
@@ -3128,20 +3108,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rest-sample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soap-sample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/com/java4qa/sandbox/tests.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -3377,33 +3343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#785#786#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="method#cleaned#0;class#TestBase#0" expanded="false" />
-            <element signature="method#logTestStart#0;class#TestBase#0" expanded="false" />
-            <element signature="method#mergePhones#0;class#TestBase#0" expanded="false" />
-            <element signature="method#mergeEmails#0;class#TestBase#0" expanded="false" />
-            <element signature="method#verifyGroupListInUI#0;class#TestBase#0" expanded="false" />
-            <element signature="method#verifyContactListInUI#0;class#TestBase#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/data_vGroups.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3421,14 +3360,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/prs_local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/prs_allure.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
@@ -3508,72 +3439,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="960">
           <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/build/allure-results/ce44e467-b1ac-41e9-86bc-8f1fecd75738-testsuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#83#105#0" expanded="false" />
-            <element signature="e#83#105#0" expanded="false" />
-            <element signature="e#122#135#0" expanded="false" />
-            <element signature="e#122#135#0" expanded="false" />
-            <element signature="e#150#801#0" expanded="false" />
-            <element signature="e#831#1295#0" expanded="false" />
-            <element signature="e#849#910#0" expanded="false" />
-            <element signature="e#849#910#0" expanded="false" />
-            <element signature="e#950#1002#1" expanded="false" />
-            <element signature="e#950#1002#0" expanded="false" />
-            <element signature="e#950#1002#1" expanded="false" />
-            <element signature="e#1044#1100#1" expanded="false" />
-            <element signature="e#1044#1100#0" expanded="false" />
-            <element signature="e#1044#1100#1" expanded="false" />
-            <element signature="e#1141#1195#1" expanded="false" />
-            <element signature="e#1141#1195#0" expanded="false" />
-            <element signature="e#1141#1195#1" expanded="false" />
-            <element signature="e#1237#1293#1" expanded="false" />
-            <element signature="e#1237#1293#0" expanded="false" />
-            <element signature="e#1237#1293#1" expanded="false" />
-            <element signature="e#1327#1793#0" expanded="false" />
-            <element signature="e#1345#1408#0" expanded="false" />
-            <element signature="e#1345#1408#0" expanded="false" />
-            <element signature="e#1448#1500#1" expanded="false" />
-            <element signature="e#1448#1500#0" expanded="false" />
-            <element signature="e#1448#1500#1" expanded="false" />
-            <element signature="e#1542#1598#1" expanded="false" />
-            <element signature="e#1542#1598#0" expanded="false" />
-            <element signature="e#1542#1598#1" expanded="false" />
-            <element signature="e#1639#1693#1" expanded="false" />
-            <element signature="e#1639#1693#0" expanded="false" />
-            <element signature="e#1639#1693#1" expanded="false" />
-            <element signature="e#1735#1791#1" expanded="false" />
-            <element signature="e#1735#1791#0" expanded="false" />
-            <element signature="e#1735#1791#1" expanded="false" />
-            <element signature="e#1832#2306#0" expanded="false" />
-            <element signature="e#1850#1921#0" expanded="false" />
-            <element signature="e#1850#1921#0" expanded="false" />
-            <element signature="e#1961#2013#1" expanded="false" />
-            <element signature="e#1961#2013#0" expanded="false" />
-            <element signature="e#1961#2013#1" expanded="false" />
-            <element signature="e#2055#2111#1" expanded="false" />
-            <element signature="e#2055#2111#0" expanded="false" />
-            <element signature="e#2055#2111#1" expanded="false" />
-            <element signature="e#2152#2206#1" expanded="false" />
-            <element signature="e#2152#2206#0" expanded="false" />
-            <element signature="e#2152#2206#1" expanded="false" />
-            <element signature="e#2248#2304#1" expanded="false" />
-            <element signature="e#2248#2304#0" expanded="false" />
-            <element signature="e#2248#2304#1" expanded="false" />
-            <element signature="e#2321#2384#0" expanded="false" />
-            <element signature="e#2321#2384#0" expanded="false" />
+            <element signature="method#cleaned#0;class#TestBase#0" expanded="false" />
+            <element signature="method#logTestStart#0;class#TestBase#0" expanded="false" />
+            <element signature="method#mergePhones#0;class#TestBase#0" expanded="false" />
+            <element signature="method#mergeEmails#0;class#TestBase#0" expanded="false" />
+            <element signature="method#verifyGroupListInUI#0;class#TestBase#0" expanded="false" />
+            <element signature="method#verifyContactListInUI#0;class#TestBase#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/tests/MyTestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook/src/test/java/com/java4qa/addressbook/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="40" column="63" lean-forward="false" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="334">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3076#3077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

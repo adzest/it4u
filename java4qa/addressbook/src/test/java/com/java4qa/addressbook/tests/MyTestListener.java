@@ -6,7 +6,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import ru.yandex.qatools.allure.annotations.Attachment;
 
-public class MyTestListner implements ITestListener {
+public class MyTestListener implements ITestListener {
   @Override
   public void onTestStart(ITestResult result) {
 
@@ -20,7 +20,7 @@ public class MyTestListner implements ITestListener {
   @Override
   public void onTestFailure(ITestResult result) {
     ApplicationManager app = (ApplicationManager) result.getTestContext().getAttribute("app");
-    saveScreenshot(app.takeScreanShot());
+    saveScreenshot(app.takeScreenShot());
   }
 
   @Attachment(value = "Page screenshot", type = "image/png")

@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
-@Listeners(MyTestListner.class)
+@Listeners(MyTestListener.class)
 public class TestBase {
 
   Logger logger = LoggerFactory.getLogger(TestBase.class);
