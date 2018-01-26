@@ -1,0 +1,10 @@
+344  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactAddToGroup
+348  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactEmail
+467  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull
+468  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull
+470  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactPhones
+471  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactDeletion
+472  [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactModification
+477  [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation
+479  [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupDeletion
+480  [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupModification

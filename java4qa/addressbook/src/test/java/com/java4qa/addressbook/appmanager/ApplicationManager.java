@@ -38,7 +38,7 @@ public class ApplicationManager {
     System.setProperty("webdriver.gecko.driver", "geckodriver");
     System.setProperty("webdriver.chrome.driver", "chromedriver");
     String target = System.getProperty("target", "local");
-    File file = new File(String.format("src/test/resources/%s.properties", target));
+    File file = new File(String.format("src/test/resources/prs_%s.properties", target));
     properties.load(new FileReader(file));
 
     dbHelper = new DbHelper();
