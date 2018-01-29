@@ -26,6 +26,10 @@ dependencies {
     compile group: 'ru.yandex.qatools.allure', name: 'allure-commandline', version: '1.5.4'
 }
 
+test.doFirst {
+    jvmArgs "-javaagent:${configurations.agent.singleFile}"
+}
+
 task testGroups(type: Test) {
     useTestNG() {
         suites 'src/test/resources/testng-groups.xml'
@@ -80,6 +84,3 @@ task testGroups(type: Test) {
 //    }
 //}
 
-test.doFirst {
-    jvmArgs "-javaagent:${configurations.agent.singleFile}"
-}

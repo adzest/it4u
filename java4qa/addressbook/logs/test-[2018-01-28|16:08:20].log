@@ -1,0 +1,2 @@
+7134 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation with parameters [GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]
+82119 [main] INFO  c.j.addressbook.tests.TestBase - Start test testGroupCreation
