@@ -1,0 +1,4 @@
+3984 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull with parameters [ContactData{id=2147483647, firstName='testFirst_1'}]
+6882 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull
+6883 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull with parameters [ContactData{id=2147483647, firstName='testFirst_2'}]
+9877 [main] INFO  c.j.addressbook.tests.TestBase - Start test testContactCreationFull

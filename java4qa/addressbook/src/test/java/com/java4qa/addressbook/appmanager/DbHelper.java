@@ -50,7 +50,7 @@ public class DbHelper {
     Connection conn = null;
     Boolean blnIsContactInGroup = false;
     try {
-      conn = DriverManager.getConnection("jdbc:mysql://localhost:3307/addressbook?user=root&password=");
+      conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/addressbook?user=root&password=");
       Statement st = conn.createStatement();
       String strQuery = String.format("select id from address_in_groups where (id=%s and group_id=%s)", contactId, groupId);
       System.out.println("query " + strQuery);

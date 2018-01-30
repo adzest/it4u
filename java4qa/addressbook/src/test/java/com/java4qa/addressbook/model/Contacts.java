@@ -2,10 +2,8 @@ package com.java4qa.addressbook.model;
 
 import com.google.common.collect.ForwardingSet;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @SuppressWarnings("ALL")
 public class Contacts extends ForwardingSet<ContactData> {
@@ -38,6 +36,9 @@ public class Contacts extends ForwardingSet<ContactData> {
   public Contacts withOut (ContactData contact){
     Contacts contacts = new Contacts(this);
     contacts.remove(contact);
+    for (ContactData c : contacts) {
+      System.out.println(c.getId());
+    }
     return contacts;
   }
 

@@ -7,6 +7,9 @@ import com.java4qa.addressbook.model.Groups;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.Optional;
+import java.util.stream.Collectors;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.testng.Assert.assertTrue;
@@ -59,8 +62,7 @@ public class ContactAddToGroupTests extends TestBase {
     Integer groupId = group.getId();
     app.goTo().homePage();
     app.contact().addToGroup(contact, group);
-
-    // Verify that contacts and groups size is not changed
+// Verify that contacts and groups size is not changed
 //    assertThat(app.contact().count(), equalTo(app.db().contacts().size()));
 //    assertThat(app.group().count(), equalTo(groups.size()));
 

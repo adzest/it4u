@@ -7,13 +7,15 @@ import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.io.File;
+import java.io.Serializable;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 @XStreamAlias("contacts")
 @Entity
 @Table(name = "addressbook")
-public class ContactData {
+public class ContactData{
   @XStreamOmitField
   @Id
   @Column(name = "id")
@@ -138,20 +140,24 @@ public class ContactData {
   @Column(name = "notes")
   @Type(type = "text")
   private String notes;
-  @ManyToMany
+  @ManyToMany(targetEntity=com.java4qa.addressbook.model.GroupData.class,
+      cascade={CascadeType.PERSIST, CascadeType.MERGE},
+      fetch=FetchType.EAGER)
   @JoinTable(name = "address_in_groups",
-      joinColumns = @JoinColumn(name = "id"), inverseJoinColumns = @JoinColumn(name = "group_id"))
+      joinColumns = @JoinColumn(name = "id"),
+      inverseJoinColumns = @JoinColumn(name = "group_id"))
   private Set<GroupData> groups = new HashSet<GroupData>();
+
   @XStreamOmitField
   @Transient
   private String allPhones;
+
   @XStreamOmitField
   @Transient
   private String allEmails;
   @XStreamOmitField
   @Transient
   private String contactDetails;
-
   public int getId() {
     return id;
   }
@@ -386,38 +392,6 @@ public class ContactData {
     return this;
   }
 
-  @Override
-  public boolean equals(Object o) {
-    if (this == o) return true;
-    if (o == null || getClass() != o.getClass()) return false;
-
-    ContactData that = (ContactData) o;
-
-    if (id != that.id) return false;
-    if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
-    return lastName != null ? lastName.equals(that.lastName) : that.lastName == null;
-  }
-
-  @Override
-  public int hashCode() {
-    int result = id;
-    result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-    result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-    return result;
-  }
-
-  // If groups.size == 0, method .toString()@ContactData throws exception:
-  // Method threw 'org.hibernate.LazyInitializationException' exception. Cannot evaluate com/java4qa/addressbook/model/ContactData.java.toString();
-  // toString() method should not contains a groups field.
-  @Override
-  public String toString() {
-    return "ContactData{" +
-        "id=" + id +
-        ", firstName='" + firstName + '\'' +
-        ", lastName='" + lastName + '\'' +
-        '}';
-  }
-
   public ContactData withBDay(int bday) {
     this.bday = bday;
     return this;
@@ -447,5 +421,28 @@ public class ContactData {
     this.ayear = aYear;
     return this;
 
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    ContactData that = (ContactData) o;
+    return id == that.id &&
+        Objects.equals(firstName, that.firstName);
+  }
+
+  @Override
+  public int hashCode() {
+
+    return Objects.hash(id, firstName, groups);
+  }
+
+  @Override
+  public String toString() {
+    return "ContactData{" +
+        "id=" + id +
+        ", firstName='" + firstName + '\'' +
+        '}';
   }
 }

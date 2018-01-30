@@ -6,6 +6,7 @@ import com.thoughtworks.xstream.annotations.XStreamOmitField;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -29,7 +30,9 @@ public class GroupData {
   @Type(type = "text")
   private String footer;
 
-  @ManyToMany(mappedBy = "groups")
+  @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE},
+      mappedBy = "groups",
+      targetEntity = ContactData.class)
   private Set<ContactData> contacts = new HashSet<ContactData>();
 
   public int getId() {

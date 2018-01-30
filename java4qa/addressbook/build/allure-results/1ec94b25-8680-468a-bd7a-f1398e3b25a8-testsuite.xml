@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1517318630018" stop="1517318635955">
+    <name>Default Suite</name>
+    <test-cases>
+        <test-case start="1517318630312" stop="1517318633045" status="passed">
+            <name>testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1517318633078" stop="1517318635952" status="passed">
+            <name>testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
