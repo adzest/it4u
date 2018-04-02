@@ -1,0 +1,35 @@
+{
+  "uid" : "946190679abb3909",
+  "name" : "testContactDeletion",
+  "title" : "Test contact deletion",
+  "time" : {
+    "start" : 1517316613696,
+    "stop" : 1517316634481,
+    "duration" : 20785
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d02dda3d68b7db13",
+    "name" : "Default Suite",
+    "title" : "Default suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

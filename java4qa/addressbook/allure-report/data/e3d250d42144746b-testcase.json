@@ -1,0 +1,38 @@
+{
+  "uid" : "e3d250d42144746b",
+  "name" : "testContactModification",
+  "title" : "Test contact modification",
+  "time" : {
+    "start" : 1517319793539,
+    "stop" : 1517319796910,
+    "duration" : 3371
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: \nExpected: <[ContactData{id=28, firstName='name_test'}, ContactData{id=26, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=26, firstName='name_test'}, ContactData{id=28, firstName='testFirst_2'}]>",
+    "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=28, firstName='name_test'}, ContactData{id=26, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=26, firstName='name_test'}, ContactData{id=28, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactModificationTests.testContactModification(ContactModificationTests.java:33)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d02dda3d68b7db13",
+    "name" : "Default Suite",
+    "title" : "Default suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

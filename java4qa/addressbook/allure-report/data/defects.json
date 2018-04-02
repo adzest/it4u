@@ -1,0 +1,354 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "ce38ba06236ea4c2",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=7, firstName='testFirst_1'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=9, firstName='testFirst_1'}, ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=7, firstName='testFirst_1'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=9, firstName='testFirst_1'}, ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "464a32022c569b84",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316229356,
+          "stop" : 1517316310474,
+          "duration" : 81118
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "73b3500e558dd09b",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=28, firstName='name_test'}, ContactData{id=26, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=26, firstName='name_test'}, ContactData{id=28, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=28, firstName='name_test'}, ContactData{id=26, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=26, firstName='name_test'}, ContactData{id=28, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactModificationTests.testContactModification(ContactModificationTests.java:33)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "e3d250d42144746b",
+        "name" : "testContactModification",
+        "title" : "Test contact modification",
+        "time" : {
+          "start" : 1517319793539,
+          "stop" : 1517319796910,
+          "duration" : 3371
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "f7f084b8954b8ccb",
+      "failure" : {
+        "message" : "AssertionError: expected [true] but found [false]",
+        "stackTrace" : "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:96)\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\n\tat org.testng.Assert.assertTrue(Assert.java:44)\n\tat org.testng.Assert.assertTrue(Assert.java:54)\n\tat com.java4qa.addressbook.tests.ContactAddToGroupTests.testContactAddToGroup(ContactAddToGroupTests.java:68)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "90b36baa54a4dc09",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517310867896,
+          "stop" : 1517310876613,
+          "duration" : 8717
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "28ec9669d30438e0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315051220,
+          "stop" : 1517315101258,
+          "duration" : 50038
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "ac0d31e22f87777a",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517310832482,
+          "stop" : 1517310833559,
+          "duration" : 1077
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "3c56cc82d96ea325",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <1>\n     but: was <2>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <1>\n     but: was <2>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:30)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "16f8fdebaa79e7a7",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517318437166,
+          "stop" : 1517318439202,
+          "duration" : 2036
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "755256c552facb8c",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=22, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=24, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=22, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=24, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:33)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "2cb5771e1d69aedc",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517319552313,
+          "stop" : 1517319583345,
+          "duration" : 31032
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "27ecf8ad896d5f17",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=12, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=14, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=12, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=14, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "3c7f4da5eb17c517",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316736502,
+          "stop" : 1517316739047,
+          "duration" : 2545
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "71b3e129b5770c9d",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=20, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=20, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "8bdd8396feb49b80",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517318454727,
+          "stop" : 1517318526241,
+          "duration" : 71514
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "63cb6fe16fe18a93",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=13, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=13, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "535505b9a6d8b600",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517317594725,
+          "stop" : 1517317630470,
+          "duration" : 35745
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "8917440118bddef1",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <55>\n     but: was <54>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <55>\n     but: was <54>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.GroupCreationTests.testGroupCreation(GroupCreationTests.java:74)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "925303ef451aa95e",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1517146624062,
+          "stop" : 1517146682280,
+          "duration" : 58218
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "55f40bb1b9df33d7",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <51>\n     but: was <50>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <51>\n     but: was <50>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.GroupCreationTests.testGroupCreation(GroupCreationTests.java:74)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "b776a5a2793b84e",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1517148507733,
+          "stop" : 1517148567862,
+          "duration" : 60129
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "c93594040473f9e6",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=15, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=15, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "259ba0d7337c307a",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316899451,
+          "stop" : 1517316915304,
+          "duration" : 15853
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "a5862cc579a21520",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=17, firstName='testFirst_1'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=13, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:32)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "a694da4ca980b8d6",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517317313111,
+          "stop" : 1517317336909,
+          "duration" : 23798
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "74861371a5ea57c9",
+      "failure" : {
+        "message" : "AssertionError: \nExpected: <[ContactData{id=7, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=8, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=9, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=10, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=2, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=4, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=5, firstName='testFirst_1', lastName='tesLast_1'}]>\n     but: was <[ContactData{id=6, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=7, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=8, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=9, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=10, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=2, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=4, firstName='testFirst_2', lastName='tesLast_2'}]>",
+        "stackTrace" : "java.lang.AssertionError: \nExpected: <[ContactData{id=7, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=8, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=9, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=10, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=2, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=4, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=5, firstName='testFirst_1', lastName='tesLast_1'}]>\n     but: was <[ContactData{id=6, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=7, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=8, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=9, firstName='testFirst_1', lastName='tesLast_1'}, ContactData{id=10, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=2, firstName='testFirst_2', lastName='tesLast_2'}, ContactData{id=4, firstName='testFirst_2', lastName='tesLast_2'}]>\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)\n\tat com.java4qa.addressbook.tests.ContactDeletionTests.testContactDeletion(ContactDeletionTests.java:31)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "656ebe211cc7e32",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316038465,
+          "stop" : 1517316041537,
+          "duration" : 3072
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "3d4ba073e3aa534d",
+      "failure" : {
+        "message" : "LazyInitializationException: failed to lazily initialize a collection of role: com.java4qa.addressbook.model.ContactData.groups, could not initialize proxy - no Session",
+        "stackTrace" : "org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.java4qa.addressbook.model.ContactData.groups, could not initialize proxy - no Session\n\tat org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:582)\n\tat org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:201)\n\tat org.hibernate.collection.internal.AbstractPersistentCollection.readSize(AbstractPersistentCollection.java:145)\n\tat org.hibernate.collection.internal.PersistentSet.size(PersistentSet.java:143)\n\tat java.util.HashSet.<init>(HashSet.java:119)\n\tat com.java4qa.addressbook.model.Groups.<init>(Groups.java:28)\n\tat com.java4qa.addressbook.model.ContactData.getGroups(ContactData.java:282)\n\tat com.java4qa.addressbook.tests.ContactAddToGroupTests.testContactAddToGroup(ContactAddToGroupTests.java:66)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "e39c53931826bcad",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517312095780,
+          "stop" : 1517312139823,
+          "duration" : 44043
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5abc0f60df12e4b0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313540443,
+          "stop" : 1517313577058,
+          "duration" : 36615
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "37db1c06432e2e0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313881468,
+          "stop" : 1517314501816,
+          "duration" : 620348
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "2733a739e485de4",
+      "failure" : {
+        "message" : "NoSuchElementException: No value present",
+        "stackTrace" : "java.util.NoSuchElementException: No value present\n\tat java.util.Optional.get(Optional.java:135)\n\tat com.java4qa.addressbook.tests.ContactAddToGroupTests.testContactAddToGroup(ContactAddToGroupTests.java:66)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "d7572e3a74dcb9d4",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315445270,
+          "stop" : 1517315466046,
+          "duration" : 20776
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "7e498b9e42c67ca8",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315504704,
+          "stop" : 1517315536246,
+          "duration" : 31542
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "uid" : "a62a54b85e2b6d37",
+      "failure" : {
+        "message" : "ClassCastException: java.util.stream.ReferencePipeline$2 cannot be cast to com.java4qa.addressbook.model.GroupData",
+        "stackTrace" : "java.lang.ClassCastException: java.util.stream.ReferencePipeline$2 cannot be cast to com.java4qa.addressbook.model.GroupData\n\tat com.java4qa.addressbook.tests.ContactAddToGroupTests.testContactAddToGroup(ContactAddToGroupTests.java:66)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:571)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+      },
+      "testCases" : [ {
+        "uid" : "5e972c527d30210d",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315393659,
+          "stop" : 1517315400858,
+          "duration" : 7199
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

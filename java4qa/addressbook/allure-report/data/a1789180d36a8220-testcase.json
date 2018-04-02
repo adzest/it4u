@@ -1,0 +1,38 @@
+{
+  "uid" : "a1789180d36a8220",
+  "name" : "testContactAddToGroup",
+  "title" : "Test contact add to group",
+  "time" : {
+    "start" : 1517313412250,
+    "stop" : 1517313412263,
+    "duration" : 13
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AnnotationException: mappedBy reference an unknown target entity property: com.java4qa.addressbook.model.ContactData.group in com.java4qa.addressbook.model.GroupData.contacts",
+    "stackTrace" : "org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.java4qa.addressbook.model.ContactData.group in com.java4qa.addressbook.model.GroupData.contacts\n\tat org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:785)\n\tat org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:735)\n\tat org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)\n\tat org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1621)\n\tat org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1589)\n\tat org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:278)\n\tat org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:83)\n\tat org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:418)\n\tat org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:87)\n\tat org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:179)\n\tat com.java4qa.addressbook.appmanager.DbHelper.<init>(DbHelper.java:28)\n\tat com.java4qa.addressbook.appmanager.ApplicationManager.init(ApplicationManager.java:44)\n\tat com.java4qa.addressbook.tests.TestBase.setUp(TestBase.java:36)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d02dda3d68b7db13",
+    "name" : "Default Suite",
+    "title" : "Default suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

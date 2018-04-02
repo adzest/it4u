@@ -20,7 +20,7 @@ public class MyTestListener implements ITestListener {
   @Override
   public void onTestFailure(ITestResult result) {
     ApplicationManager app = (ApplicationManager) result.getTestContext().getAttribute("app");
-    saveScreenshot(app.takeScreenShot());
+    saveScreenshot(app.takeScreenshot());
   }
 
   @Attachment(value = "Page screenshot", type = "image/png")

@@ -1,0 +1,38 @@
+{
+  "uid" : "c7c1bc248c2bcf22",
+  "name" : "testGroupCreation",
+  "title" : "Test group creation",
+  "time" : {
+    "start" : 1522669425788,
+    "stop" : 1522669425790,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "SessionNotCreatedException: Unable to find a matching set of capabilities\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'Isakov-MBP.local', ip: '10.121.20.85', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_151'\nDriver info: driver.version: FirefoxDriver\nremote stacktrace: stack backtrace:\n   0:        0x102c05b9e - backtrace::backtrace::trace::hc694823f3e7463c0\n   1:        0x102c05d3c - backtrace::capture::Backtrace::new::h23089c033eded8f0\n   2:        0x102b9c49f - geckodriver::marionette::MarionetteHandler::create_connection::h28d9a5da1ae86a0f\n   3:        0x102b75b35 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::h0fabb15c26e47636\n   4:        0x102b59977 - std::panicking::try::do_call::h543af5bbc3bc1d87\n   5:        0x102d2231a - __rust_maybe_catch_panic\n   6:        0x102b6c0d5 - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h78dc3124c67e3eb7\n   7:        0x102d1e4e4 - std::sys::imp::thread::Thread::new::thread_start::hba7593f2e1f1beb1\n   8:     0x7fff552eb6c0 - _pthread_body\n   9:     0x7fff552eb56c - _pthread_start",
+    "stackTrace" : "org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'Isakov-MBP.local', ip: '10.121.20.85', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.3', java.version: '1.8.0_151'\nDriver info: driver.version: FirefoxDriver\nremote stacktrace: stack backtrace:\n   0:        0x102c05b9e - backtrace::backtrace::trace::hc694823f3e7463c0\n   1:        0x102c05d3c - backtrace::capture::Backtrace::new::h23089c033eded8f0\n   2:        0x102b9c49f - geckodriver::marionette::MarionetteHandler::create_connection::h28d9a5da1ae86a0f\n   3:        0x102b75b35 - _$LT$webdriver..server..Dispatcher$LT$T$C$$u20$U$GT$$GT$::run::h0fabb15c26e47636\n   4:        0x102b59977 - std::panicking::try::do_call::h543af5bbc3bc1d87\n   5:        0x102d2231a - __rust_maybe_catch_panic\n   6:        0x102b6c0d5 - _$LT$F$u20$as$u20$alloc..boxed..FnBox$LT$A$GT$$GT$::call_box::h78dc3124c67e3eb7\n   7:        0x102d1e4e4 - std::sys::imp::thread::Thread::new::thread_start::hba7593f2e1f1beb1\n   8:     0x7fff552eb6c0 - _pthread_body\n   9:     0x7fff552eb56c - _pthread_start\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)\n\tat com.java4qa.addressbook.appmanager.ApplicationManager.init(ApplicationManager.java:47)\n\tat com.java4qa.addressbook.tests.TestBase.setUp(TestBase.java:36)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1116)\n\tat org.testng.TestNG.runSuites(TestNG.java:1028)\n\tat org.testng.TestNG.run(TestNG.java:996)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d02dda3d68b7db13",
+    "name" : "Default Suite",
+    "title" : "Default suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

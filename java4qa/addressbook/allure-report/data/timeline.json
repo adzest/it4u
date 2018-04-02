@@ -1,0 +1,801 @@
+{
+  "hosts" : [ {
+    "title" : "default",
+    "threads" : [ {
+      "title" : "default",
+      "testCases" : [ {
+        "uid" : "657d265dbfd49dc9",
+        "name" : "testGroupDeletion",
+        "title" : "Test group deletion",
+        "time" : {
+          "start" : 1517320006260,
+          "stop" : 1517320008078,
+          "duration" : 1818
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "154ab2d14d0905d1",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669476012,
+          "stop" : 1522669476015,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "4d4c662fcf52f14b",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517319774343,
+          "stop" : 1517319776059,
+          "duration" : 1716
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "464a32022c569b84",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316229356,
+          "stop" : 1517316310474,
+          "duration" : 81118
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e3d250d42144746b",
+        "name" : "testContactModification",
+        "title" : "Test contact modification",
+        "time" : {
+          "start" : 1517319793539,
+          "stop" : 1517319796910,
+          "duration" : 3371
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e39c53931826bcad",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517312095780,
+          "stop" : 1517312139823,
+          "duration" : 44043
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "90b36baa54a4dc09",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517310867896,
+          "stop" : 1517310876613,
+          "duration" : 8717
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "a1789180d36a8220",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313412250,
+          "stop" : 1517313412263,
+          "duration" : 13
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "16f8fdebaa79e7a7",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517318437166,
+          "stop" : 1517318439202,
+          "duration" : 2036
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "2cb5771e1d69aedc",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517319552313,
+          "stop" : 1517319583345,
+          "duration" : 31032
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8c7ddd9ae9adf1da",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313207883,
+          "stop" : 1517313207888,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "d15a10a934ee1800",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669590194,
+          "stop" : 1522669590197,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "d7572e3a74dcb9d4",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315445270,
+          "stop" : 1517315466046,
+          "duration" : 20776
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "933c919732aab015",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1517145841414,
+          "stop" : 1517145841416,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "77e2da3576e9d1aa",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669635409,
+          "stop" : 1522669635411,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "71be8b52f6e5bfa2",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517312496923,
+          "stop" : 1517312496930,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "3c7f4da5eb17c517",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316736502,
+          "stop" : 1517316739047,
+          "duration" : 2545
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "946190679abb3909",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316613696,
+          "stop" : 1517316634481,
+          "duration" : 20785
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b05849776aa240e7",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669502721,
+          "stop" : 1522669502723,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "70efa0da54741830",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1522674794892,
+          "stop" : 1522674798294,
+          "duration" : 3402
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5abc0f60df12e4b0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313540443,
+          "stop" : 1517313577058,
+          "duration" : 36615
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "ab99bf2d4d7bfe25",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517319755339,
+          "stop" : 1517319758198,
+          "duration" : 2859
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f0098ed24642249f",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517319758232,
+          "stop" : 1517319761224,
+          "duration" : 2992
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3f25ab6e84576497",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517318630312,
+          "stop" : 1517318633045,
+          "duration" : 2733
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3255d8accfa1f64",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517318633078,
+          "stop" : 1517318635952,
+          "duration" : 2874
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "927c0efa3523b641",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1522674839409,
+          "stop" : 1522674842926,
+          "duration" : 3517
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8bdd8396feb49b80",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517318454727,
+          "stop" : 1517318526241,
+          "duration" : 71514
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "37db1c06432e2e0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313881468,
+          "stop" : 1517314501816,
+          "duration" : 620348
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "5e972c527d30210d",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315393659,
+          "stop" : 1517315400858,
+          "duration" : 7199
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "535505b9a6d8b600",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517317594725,
+          "stop" : 1517317630470,
+          "duration" : 35745
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "e9f8182e3b7b503c",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517316845995,
+          "stop" : 1517316848760,
+          "duration" : 2765
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6bae9e637d6dca79",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517316848796,
+          "stop" : 1517316851835,
+          "duration" : 3039
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "925303ef451aa95e",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1517146624062,
+          "stop" : 1517146682280,
+          "duration" : 58218
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "ba064437e34690a7",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316805480,
+          "stop" : 1517316827522,
+          "duration" : 22042
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "469c5ae2330533cf",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517319706778,
+          "stop" : 1517319709352,
+          "duration" : 2574
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9bfd3f928befa2e",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517319709386,
+          "stop" : 1517319712304,
+          "duration" : 2918
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b776a5a2793b84e",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name=''', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1517148507733,
+          "stop" : 1517148567862,
+          "duration" : 60129
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "636279a0defc3489",
+        "name" : "testContactModification",
+        "title" : "Test contact modification",
+        "time" : {
+          "start" : 1517319850551,
+          "stop" : 1517319853227,
+          "duration" : 2676
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "512a51fc3baff0ee",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313140869,
+          "stop" : 1517313140878,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "7e498b9e42c67ca8",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315504704,
+          "stop" : 1517315536246,
+          "duration" : 31542
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "58fe2e51912d17c0",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517318694619,
+          "stop" : 1517318697463,
+          "duration" : 2844
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "315962f262575517",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517318697500,
+          "stop" : 1517318700544,
+          "duration" : 3044
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c7c1bc248c2bcf22",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669425788,
+          "stop" : 1522669425790,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "613d75a401348bfe",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517316705163,
+          "stop" : 1517316707784,
+          "duration" : 2621
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f515d4dd0794bc42",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517316707817,
+          "stop" : 1517316710644,
+          "duration" : 2827
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "29c247146829578",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name='test1', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name='test1', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1516964171920,
+          "stop" : 1516964176829,
+          "duration" : 4909
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "895618441725d7ba",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517319721185,
+          "stop" : 1517319744802,
+          "duration" : 23617
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "28ec9669d30438e0",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517315051220,
+          "stop" : 1517315101258,
+          "duration" : 50038
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "d5a052f5c2008fff",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313117645,
+          "stop" : 1517313117652,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "c2d7752bcefb9e61",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517317813198,
+          "stop" : 1517317825175,
+          "duration" : 11977
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f7b1e25d0558e118",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1522669665484,
+          "stop" : 1522669665486,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "ac0d31e22f87777a",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517310832482,
+          "stop" : 1517310833559,
+          "duration" : 1077
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "979455d218b859b7",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517316875080,
+          "stop" : 1517316878302,
+          "duration" : 3222
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2c185fe35ca8444c",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517316878342,
+          "stop" : 1517316881617,
+          "duration" : 3275
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "259ba0d7337c307a",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316899451,
+          "stop" : 1517316915304,
+          "duration" : 15853
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "8d97e8ec35770421",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1522670065136,
+          "stop" : 1522670068335,
+          "duration" : 3199
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a8c2bbeb496b535b",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517319675373,
+          "stop" : 1517319693531,
+          "duration" : 18158
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ab9de306fa5665c8",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316669239,
+          "stop" : 1517316694174,
+          "duration" : 24935
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9bf6243f4f46f23",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1517146346087,
+          "stop" : 1517146346090,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "a694da4ca980b8d6",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517317313111,
+          "stop" : 1517317336909,
+          "duration" : 23798
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "656ebe211cc7e32",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517316038465,
+          "stop" : 1517316041537,
+          "duration" : 3072
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "2384e1d7357dd288",
+        "name" : "testGroupModification",
+        "title" : "Test group modification",
+        "time" : {
+          "start" : 1517320017218,
+          "stop" : 1517320017936,
+          "duration" : 718
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1b2342d315540eec",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1517145953550,
+          "stop" : 1517145953552,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "8410adfed0cd1f6d",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_1'}]",
+        "time" : {
+          "start" : 1517317847347,
+          "stop" : 1517317850175,
+          "duration" : 2828
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1958337d901be242",
+        "name" : "testContactCreationFull[ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "title" : "Test contact creation full [ContactData{id=2147483647, firstName='testFirst_2'}]",
+        "time" : {
+          "start" : 1517317850208,
+          "stop" : 1517317853165,
+          "duration" : 2957
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "983f20611ed05de1",
+        "name" : "testContactDeletion",
+        "title" : "Test contact deletion",
+        "time" : {
+          "start" : 1517318647185,
+          "stop" : 1517318677485,
+          "duration" : 30300
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8218073fe5a13bef",
+        "name" : "testGroupCreation[GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "title" : "Test group creation [GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+        "time" : {
+          "start" : 1517319988564,
+          "stop" : 1517319992525,
+          "duration" : 3961
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b8192e8b98174097",
+        "name" : "testDbConnection",
+        "title" : "Test db connection",
+        "time" : {
+          "start" : 1517320042611,
+          "stop" : 1517320042945,
+          "duration" : 334
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e487a24e87c3b9fc",
+        "name" : "testContactAddToGroup",
+        "title" : "Test contact add to group",
+        "time" : {
+          "start" : 1517313456740,
+          "stop" : 1517313456747,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "6362cf8e5b376944",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1517239715800,
+          "stop" : 1517239715855,
+          "duration" : 55
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9c40713e37996a90",
+        "name" : "testHbConnectionToGroupList",
+        "title" : "Test hb connection to group list",
+        "time" : {
+          "start" : 1517320036885,
+          "stop" : 1517320037137,
+          "duration" : 252
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e07b8f6e314f7b8f",
+        "name" : "testGroupCreation",
+        "title" : "Test group creation",
+        "time" : {
+          "start" : 1516979774854,
+          "stop" : 1516979774858,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      } ]
+    } ]
+  } ]
+}

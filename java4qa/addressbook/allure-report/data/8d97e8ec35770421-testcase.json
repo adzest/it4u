@@ -1,0 +1,35 @@
+{
+  "uid" : "8d97e8ec35770421",
+  "name" : "testGroupCreation[GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+  "title" : "Test group creation [GroupData{id=2147483647, name='header', header='header_1', footer='_foo'}]",
+  "time" : {
+    "start" : 1522670065136,
+    "stop" : 1522670068335,
+    "duration" : 3199
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d02dda3d68b7db13",
+    "name" : "Default Suite",
+    "title" : "Default suite"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

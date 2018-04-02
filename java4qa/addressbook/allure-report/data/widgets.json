@@ -1,0 +1,96 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 72,
+      "passed" : 34,
+      "pending" : 0,
+      "canceled" : 17,
+      "failed" : 15,
+      "broken" : 6
+    },
+    "time" : {
+      "start" : 1516964171920,
+      "stop" : 1522674842926,
+      "duration" : 5710671006
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 3,
+      "message" : "AssertionError: expected [true] but found [false]",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=7, firstName='testFirst_1'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=9, firstName='testFirst_1'}, ContactData{id=10, firstName='testFirst_2'}, ContactData{id=6, firstName='testFirst_2'}, ContactData{id=8, firstName='testFirst_2'}, ContactData{id=2, firstName='testFirst_2'}, ContactData{id=4, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=28, firstName='name_test'}, ContactData{id=26, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=26, firstName='name_test'}, ContactData{id=28, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <1>\n     but: was <2>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=22, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=24, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=12, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=14, firstName='testFirst_1'}, ContactData{id=13, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=20, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <[ContactData{id=13, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>\n     but: was <[ContactData{id=16, firstName='testFirst_2'}, ContactData{id=18, firstName='testFirst_2'}]>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <55>\n     but: was <54>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: \nExpected: <51>\n     but: was <50>",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Default suite",
+      "statistic" : {
+        "total" : 72,
+        "passed" : 34,
+        "pending" : 0,
+        "canceled" : 17,
+        "failed" : 15,
+        "broken" : 6
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 72,
+        "passed" : 34,
+        "pending" : 0,
+        "canceled" : 17,
+        "failed" : 15,
+        "broken" : 6
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
