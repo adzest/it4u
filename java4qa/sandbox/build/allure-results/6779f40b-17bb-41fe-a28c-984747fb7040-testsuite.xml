@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1522659721274" stop="1522659730981">
+    <name>Default Suite</name>
+    <test-cases>
+        <test-case start="1522659721300" stop="1522659721309" status="passed">
+            <name>testNonPrime</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1522659721400" stop="1522659727642" status="passed">
+            <name>testPrime</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1522659727645" stop="1522659730972" status="passed">
+            <name>testPrimeFast</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1522659730974" stop="1522659730975" status="passed">
+            <name>testPrimeSuperFast</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+        <test-case start="1522659730978" stop="1522659730979" status="passed">
+            <name>testArea</name>
+            <steps/>
+            <attachments/>
+            <labels/>
+        </test-case>
+    </test-cases>
+    <labels/>
+</ns2:test-suite>
