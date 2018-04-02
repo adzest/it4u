@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f287c7b6-c834-428d-9294-cfc64a43afc9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" afterPath="$PROJECT_DIR$/sandbox/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/addressbook/geckodriver" afterPath="$PROJECT_DIR$/addressbook/geckodriver" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook/.gradle/" />
@@ -2142,10 +2142,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="44" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="356" />
     <option name="y" value="23" />
-    <option name="width" value="1396" />
+    <option name="width" value="1084" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -2173,7 +2173,7 @@
           <expand>
             <path>
               <item name="java4qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sandbox" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="addressbook" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2250,7 +2250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.com.java4qa.sandbox.tests">
+  <component name="RunManager" selected="TestNG.Local:FF-GroupCreationTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -2912,26 +2912,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DbConnectionTest_testDbConnection - 2018.01.30 at 15h 47m 23s.xml">
-      <configuration name="DbConnectionTest.testDbConnection" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 43m 46s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupDeletionTests_testGroupDeletion - 2018.01.30 at 15h 46m 48s.xml">
-      <configuration name="GroupDeletionTests.testGroupDeletion" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 44m 36s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupModificationTests_testGroupModification - 2018.01.30 at 15h 46m 58s.xml">
-      <configuration name="GroupModificationTests.testGroupModification" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 45m 03s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HbConnectionTest_testHbConnectionToGroupList - 2018.01.30 at 15h 47m 17s.xml">
-      <configuration name="HbConnectionTest.testHbConnectionToGroupList" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 46m 30s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Local_GC-GroupCreationTests - 2018.01.30 at 15h 46m 33s.xml">
-      <configuration name="Local:GC-GroupCreationTests" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 47m 15s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.30 at 15h 45m 10s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 47m 46s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.30 at 15h 45m 49s.xml">
-      <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
+    <history-entry file="Local_FF-GroupCreationTests - 2018.04.02 at 14h 54m 29s.xml">
+      <configuration name="Local:FF-GroupCreationTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Remote_GroupCreationTests_testGroupCreation - 2018.01.30 at 15h 46m 12s.xml">
       <configuration name="Remote:GroupCreationTests.testGroupCreation" configurationId="TestNG" />
@@ -2944,7 +2944,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="1396" height="877" extended-state="1" />
+    <frame x="356" y="23" width="1084" height="877" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2954,14 +2954,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37363967" sideWeight="0.5078684" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38107416" sideWeight="0.48988286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38107416" sideWeight="0.48988286" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956523" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22304283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28982726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2939424" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029542098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038387716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
